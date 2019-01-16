@@ -3,9 +3,10 @@ package server
 import (
 	"errors"
 	"fmt"
-	"google.golang.org/grpc"
 	"log"
 	"net"
+
+	"google.golang.org/grpc"
 )
 
 var ErrServerClosed = errors.New("grpc: server closed")
@@ -21,8 +22,8 @@ type Server struct {
 // NewServer 通过option函数修改Server的属性
 func NewServer(options ...OptionFn) *Server {
 	s := &Server{
-		Plugins: &pluginContainer{},
-		options: make(map[string]interface{}),
+		Plugins:    &pluginContainer{},
+		options:    make(map[string]interface{}),
 		grpcServer: grpc.NewServer(),
 	}
 
@@ -33,7 +34,7 @@ func NewServer(options ...OptionFn) *Server {
 	return s
 }
 
-func (s *Server) GrpcServer() *grpc.Server{
+func (s *Server) GrpcServer() *grpc.Server {
 	return s.grpcServer
 }
 
@@ -43,7 +44,7 @@ func (s *Server) RegisterService() {
 }
 
 // StartServer 启动服务
-func (s *Server) StartServer() error{
+func (s *Server) StartServer() error {
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", s.port))
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)

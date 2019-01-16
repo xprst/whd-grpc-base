@@ -1,6 +1,6 @@
 package server
 
-import "wh-git.mingyuanyun.com/grpc-go/go-grpc-base/errors"
+import "github.com/xprst/whd-grpc-base/errors"
 
 // Plugin 插件接口
 type Plugin interface{}

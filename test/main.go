@@ -1,8 +1,8 @@
 package main
 
 import (
-	"wh-git.mingyuanyun.com/grpc-go/go-grpc-base/server"
-	"wh-git.mingyuanyun.com/grpc-go/go-grpc-base/test/pb/demo"
+	"github.com/xprst/whd-grpc-base/server"
+	"github.com/xprst/whd-grpc-base/test/pb/demo"
 	"context"
 	"fmt"
 )
