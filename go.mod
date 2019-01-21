@@ -7,6 +7,7 @@ require (
 	github.com/opentracing/opentracing-go v1.0.2 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
 	golang.org/x/net v0.0.0-20190110200230-915654e7eabc
+	google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8
 	google.golang.org/grpc v1.16.0
 )
 

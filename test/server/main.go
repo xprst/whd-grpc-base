@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"flag"
 	"fmt"
 	"github.com/xprst/whd-grpc-base/server"
 	"github.com/xprst/whd-grpc-base/test/pb/demo"
@@ -24,6 +25,7 @@ func (s *DemoServer) SayHello(ctx context.Context, who *demo.Who) (*demo.HelloEn
 
 func main() {
 	fmt.Printf("This is test!")
+	message = flag.String("m", "hello", "name aa")
 
 	s := server.NewServer(server.WithPort(8888))
 	demo.RegisterHelloServer(s.GrpcServer(), &DemoServer{})

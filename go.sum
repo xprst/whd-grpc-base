@@ -19,6 +19,7 @@ github.com/golang/tools v0.0.0-20180828015842-6cd1fcedba52/go.mod h1:BZR6KJOI/IQ
 github.com/google/go-genproto v0.0.0-20190111180523-db91494dd46c h1:9lZ92fIdMmujTyPmdw7gkYp6ACX0JuCsk3/is4zRiLQ=
 github.com/google/go-genproto v0.0.0-20190111180523-db91494dd46c/go.mod h1:7Ep/1NZk928CDR8SjdVbjWNpdIf6nzjE3BTgJDr2Atg=
 github.com/googleapis/google-cloud-go v0.34.0/go.mod h1:yJoOdPPE9UpqbamBhJvp7Ur6OUPPV4rUY3RnssPGNBA=
+github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 h1:BWIsLfhgKhV5g/oF34aRjniBHLTZe5DNekSjbAjIS6c=
 github.com/grpc-ecosystem/go-grpc-middleware v1.0.0/go.mod h1:FiyG127CGDf3tlThmgyCl78X/SZQqEOJBCDaAfeWzPs=
 github.com/grpc/grpc-go v1.2.1-0.20190114234020-98a94b0cb0eb h1:mxVwBT9YByOUsW6Rdbul/lXxzND2NYggSyCXF+Bzg60=
 github.com/grpc/grpc-go v1.2.1-0.20190114234020-98a94b0cb0eb/go.mod h1:6QZJwpn2B+Zp71q/5VxRsJ6NXXVCE5NRUHRo+f3cWCs=

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package demo;
+
+import "google/api/annotations.proto";
+
+message Who {
+    string name = 1;
+}
+
+message HelloEnvoy {
+    string message = 1;
+}
+
+service Hello {
+    rpc SayHello(Who) returns (HelloEnvoy) {
+        option (google.api.http) = {
+            get: "/v1/demo"
+        };
+    }
+}
