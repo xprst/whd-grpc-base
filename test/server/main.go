@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/xprst/whd-grpc-base/server"
-	"github.com/xprst/whd-grpc-base/test/pb/demo"
 	"context"
 	"fmt"
+	"github.com/xprst/whd-grpc-base/server"
+	"github.com/xprst/whd-grpc-base/test/pb/demo"
 )
 
 var message *string
