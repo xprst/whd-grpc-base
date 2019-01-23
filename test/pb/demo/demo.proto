@@ -12,10 +12,26 @@ message HelloEnvoy {
     string message = 1;
 }
 
+message User {
+    int32 id = 1;
+    string name = 2;
+    string code = 3;
+    int32 age = 4;
+    repeated string skills = 5;
+    bool isDisabled = 6;
+
+}
+
 service Hello {
     rpc SayHello(Who) returns (HelloEnvoy) {
         option (google.api.http) = {
             get: "/v1/demo"
+        };
+    };
+    rpc addUser(User) returns (User) {
+        option (google.api.http) = {
+            post: "/v1/user"
+            body: "user"
         };
     }
 }

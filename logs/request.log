@@ -1,0 +1,328 @@
+2019-01-22T18:50:48.317+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46060", "grpc.start_time": "2019-01-22T18:50:48+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46060", "grpc.request.id": "5HwcyMVP94smLNS7jJH3E4", "error": "rpc error: code = Internal desc = test error ...", "grpc.code": "Internal", "grpc.time_ms": 2.9739999771118164}
+2019-01-22T18:50:57.701+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46060", "grpc.start_time": "2019-01-22T18:50:57+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46060", "grpc.request.id": "6uPFqzPLskshccUfjFNLTd", "error": "rpc error: code = Internal desc = test error ...", "grpc.code": "Internal", "grpc.time_ms": 0.49300000071525574}
+2019-01-22T18:53:51.335+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46062", "grpc.start_time": "2019-01-22T18:53:51+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46062", "grpc.request.id": "y6dNrB6JPmc9PPUEb642bB", "error": "rpc error: code = Internal desc = test error ...", "grpc.code": "Internal", "grpc.time_ms": 3.9679999351501465}
+2019-01-22T18:56:23.486+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46064", "grpc.start_time": "2019-01-22T18:56:23+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46064", "grpc.request.id": "SHA7eDjgVcje5Ty3ZqrudN", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 3.4709999561309814}
+2019-01-22T19:09:00.861+0800	INFO	middleware/options.go:27	DefaultLogger init success
+2019-01-22T19:09:08.572+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46068", "grpc.start_time": "2019-01-22T19:09:08+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46068", "grpc.request.id": "B8xCk4dWXd5SHCxjzREi39", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 3.9639999866485596}
+2019-01-22T19:18:04.418+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46070", "grpc.start_time": "2019-01-22T19:18:04+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46070", "grpc.request.id": "67o3QU67kGhN99RkA5cpTQ", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 2.9749999046325684}
+2019-01-22T19:29:03.193+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46072", "grpc.start_time": "2019-01-22T19:29:03+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46072", "grpc.request.id": "i8QDkHNYuHNZKxrVWD3wXR", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 4.442999839782715}
+2019-01-22T19:45:33.935+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46074", "grpc.start_time": "2019-01-22T19:45:33+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46074", "grpc.request.id": "QrJaZ4wDDhzrKEQW2tJ3oS", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 5.454999923706055}
+2019-01-22T19:48:32.546+0800	ERROR	finished unary call with code Internal	{"peer.address": "192.168.52.128:46076", "grpc.start_time": "2019-01-22T19:48:32+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46076", "grpc.request.id": "DDvUD2RfVQYn3cwiuusGtb", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 2.9749999046325684}
+2019-01-22T20:14:36.178+0800	PANIC	recovery/interceptors.go:21	runtime error: invalid memory address or nil pointer dereference
+2019-01-22T20:20:04.568+0800	PANIC	recovery/interceptors.go:21	runtime error: invalid memory address or nil pointer dereference
+2019-01-22T20:23:44.439+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46084", "grpc.start_time": "2019-01-22T20:23:30+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "grpc.request.id": "8QR65PT47YXgZuEfQ4z8MC", "peer.address": "192.168.52.128:46084", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 14123.5576171875}
+2019-01-22T20:26:54.677+0800	PANIC	recovery/interceptors.go:21	goroutine 24 [running]:
+runtime/debug.Stack(0xc0000dc540, 0x923c60, 0x7f51b7)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:39 +0x3b
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235e8, 0x49f3e0, 0xc00007e008)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc00007e070, 0xc00006f590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986f80, 0xc00010c930, 0xc00010c750, 0xce3f58, 0xc000046480, 0xc0000526c0)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986f80, 0xc00010c930, 0x8c7720, 0xc00010c750, 0xc00010c930, 0xc00006f4f0, 0x42bbc9, 0xc0000526f0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc00010c930, 0x8c7720, 0xc00010c750, 0x552183da, 0xa34f328b96b2f080, 0x0, 0xa300000000cc8f00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986f80, 0xc00010c930, 0x8c7720, 0xc00010c750, 0xc000051140, 0xc0000948c0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc00010c930, 0x8c7720, 0xc00010c750, 0xc0001586b0, 0x986380, 0xc00007e0a0, 0xc00010c930)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986f80, 0xc00010c930, 0x8c7720, 0xc00010c750, 0xc000051140, 0xc0000948c0, 0x0, 0xc0000f2d20, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc00010c900, 0x8c7720, 0xc00010c750, 0x14, 0xbf09e0e3a82f0b34, 0x160638dd1, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986f80, 0xc00010c810, 0x8c7720, 0xc00010c750, 0xc000051140, 0xc0000948c0, 0xc00007e0a0, 0xc00007e0a0, 0xc00010c7e0, 0xc0000f2d00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc00010c810, 0x8c7720, 0xc00010c750, 0x14, 0x8c7720, 0xc00010c750, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986f80, 0xc00010c720, 0x8c7720, 0xc00010c750, 0xc000051140, 0xc0000948c0, 0xc000115af8, 0x40c2cf, 0xc00006fb08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986f80, 0xc00010c720, 0x8c7720, 0xc00010c750, 0xc000051140, 0xc000051160, 0x875880, 0xce3f58, 0x8eb8a0, 0xc0000ea100)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986f80, 0xc00010c720, 0xc000094780, 0xc00010c150, 0x0, 0x0, 0xc00005717a, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000046300, 0x988f40, 0xc000046780, 0xc0000ea100, 0xc00010c2d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000046300, 0x988f40, 0xc000046780, 0xc0000ea100, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc0000570b0, 0xc000046300, 0x988f40, 0xc000046780, 0xc0000ea100)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:30:46.872+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46088", "grpc.start_time": "2019-01-22T20:30:46+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "grpc.request.id": "yEELdkkdkY4wyJYVZnJuzm", "peer.address": "192.168.52.128:46088", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 4.464000225067139}
+2019-01-22T20:39:24.920+0800	PANIC	recovery/interceptors.go:21	goroutine 8 [running]:
+runtime/debug.Stack(0xc0000dc540, 0x923c60, 0x7f51b7)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:39 +0x3b
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235e8, 0x49f3e0, 0xc00007e008)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc00007e070, 0xc00006f590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986f80, 0xc0001365a0, 0xc0001363c0, 0xce3f58, 0xc000046480, 0xc00003e1c0)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc0001365a0, 0xc00006f4f0, 0x42bbc9, 0xc00003e1f0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0x80298516, 0x7cb6bbce32626d37, 0x0, 0x7c0000c000016e00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc00017b1a0, 0x986380, 0xc000006020, 0xc0001365a0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0xc00001e3a0, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000136570, 0x8c7720, 0xc0001363c0, 0x14, 0xbf09e19f36b70800, 0x6473dcd71, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986f80, 0xc000136480, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000006020, 0xc000006020, 0xc000136450, 0xc00001e380)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000136480, 0x8c7720, 0xc0001363c0, 0x14, 0x8c7720, 0xc0001363c0, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986f80, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000115af8, 0x40c2cf, 0xc00006fb08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986f80, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000004240, 0x875880, 0xce3f58, 0x8eb8a0, 0xc00018e000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986f80, 0xc000136390, 0xc000118230, 0xc00010c150, 0x0, 0x0, 0xc00001818a, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000, 0xc00010c2d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc0000180b0, 0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:47:18.689+0800	PANIC	recovery/interceptors.go:21	goroutine 8 [running]:
+runtime/debug.Stack(0xc0000dc540, 0x923c60, 0x7f51b7)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:39 +0x3b
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235e8, 0x49f3e0, 0xc00007e008)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc00007e070, 0xc00006f590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986f80, 0xc0001365a0, 0xc0001363c0, 0xce3f58, 0xc000046480, 0xc00003e1c0)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc0001365a0, 0xc00006f4f0, 0x42bbc9, 0xc00003e1f0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xdec98232, 0xd2d4b404e40c352a, 0x0, 0xd20000c000016e00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc00017b1a0, 0x986380, 0xc000006020, 0xc0001365a0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986f80, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0xc00001e3a0, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000136570, 0x8c7720, 0xc0001363c0, 0x14, 0xbf09e215a8df1b78, 0xe8480255, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986f80, 0xc000136480, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000006020, 0xc000006020, 0xc000136450, 0xc00001e380)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000136480, 0x8c7720, 0xc0001363c0, 0x14, 0x8c7720, 0xc0001363c0, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986f80, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000115af8, 0x40c2cf, 0xc00006fb08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986f80, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000004240, 0x875880, 0xce3f58, 0x8eb8a0, 0xc00018e000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986f80, 0xc000136390, 0xc000118230, 0xc00010c150, 0x0, 0x0, 0xc00001818a, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000, 0xc00010c2d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc0000180b0, 0xc000046300, 0x988f40, 0xc000002f00, 0xc00018e000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:51:50.842+0800	PANIC	recovery/interceptors.go:21	goroutine 22 [running]:
+runtime/debug.Stack(0xc0000405a0, 0x9235e8, 0x7f5297)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:46 +0x63
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235f0, 0x49f3e0, 0xc000006018)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc000006080, 0xc000065590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986f80, 0xc0001265a0, 0xc0001263c0, 0xce3f58, 0xc000003080, 0xc00012a180)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986f80, 0xc0001265a0, 0x8c7720, 0xc0001263c0, 0xc0001265a0, 0xc0000654f0, 0x42bbc9, 0xc00012a1b0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001265a0, 0x8c7720, 0xc0001263c0, 0xf00df966, 0xb0ab6b96d66638c6, 0x0, 0xb00000c000016a80)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986f80, 0xc0001265a0, 0x8c7720, 0xc0001263c0, 0xc0001301c0, 0xc000102370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0001265a0, 0x8c7720, 0xc0001263c0, 0xc00015b190, 0x986380, 0xc000104010, 0xc0001265a0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986f80, 0xc0001265a0, 0x8c7720, 0xc0001263c0, 0xc0001301c0, 0xc000102370, 0x0, 0xc000132160, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000126570, 0x8c7720, 0xc0001263c0, 0x14, 0xbf09e259b1de7804, 0x1669fd0e11, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986f80, 0xc000126480, 0x8c7720, 0xc0001263c0, 0xc0001301c0, 0xc000102370, 0xc000104010, 0xc000104010, 0xc000126450, 0xc000132140)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc000126480, 0x8c7720, 0xc0001263c0, 0x14, 0x8c7720, 0xc0001263c0, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986f80, 0xc000126390, 0x8c7720, 0xc0001263c0, 0xc0001301c0, 0xc000102370, 0xc0000ffaf8, 0x40c2cf, 0xc000065b08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986f80, 0xc000126390, 0x8c7720, 0xc0001263c0, 0xc0001301c0, 0xc0001301e0, 0x875880, 0xce3f58, 0x8eb8a0, 0xc000170000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986f80, 0xc000126390, 0xc000102230, 0xc0000f6150, 0x0, 0x0, 0xc00012812a, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000002f00, 0x988f40, 0xc000046300, 0xc000170000, 0xc0000f62d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000002f00, 0x988f40, 0xc000046300, 0xc000170000, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc000128060, 0xc000002f00, 0x988f40, 0xc000046300, 0xc000170000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:52:12.161+0800	PANIC	recovery/interceptors.go:21	goroutine 24 [running]:
+runtime/debug.Stack(0xc0000405a0, 0x9235e8, 0x7f5297)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:46 +0x63
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235f0, 0x49f3e0, 0xc000006018)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc000006080, 0xc000069590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986f80, 0xc0000f6630, 0xc0000f6480, 0xce3f58, 0xc000003080, 0xc00003e740)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986f80, 0xc0000f6630, 0x8c7720, 0xc0000f6480, 0xc0000f6630, 0xc0000694f0, 0x42bbc9, 0xc00003e770)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0000f6630, 0x8c7720, 0xc0000f6480, 0x5e2b303e, 0x507dc2c990f009fb, 0x0, 0x500000c0000f4380)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986f80, 0xc0000f6630, 0x8c7720, 0xc0000f6480, 0xc000005080, 0xc000084730, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0000f6630, 0x8c7720, 0xc0000f6480, 0xc00003d590, 0x986380, 0xc0000060b0, 0xc0000f6630)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986f80, 0xc0000f6630, 0x8c7720, 0xc0000f6480, 0xc000005080, 0xc000084730, 0x0, 0xc0000dae20, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0000f6600, 0x8c7720, 0xc0000f6480, 0x14, 0xbf09e25f0996eee4, 0x1b6102e0f1, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986f80, 0xc0000f6510, 0x8c7720, 0xc0000f6480, 0xc000005080, 0xc000084730, 0xc0000060b0, 0xc0000060b0, 0xc0000f64e0, 0xc0000dae00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986f80, 0xc0000f6510, 0x8c7720, 0xc0000f6480, 0x14, 0x8c7720, 0xc0000f6480, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986f80, 0xc0000f6450, 0x8c7720, 0xc0000f6480, 0xc000005080, 0xc000084730, 0xc000135af8, 0x40c2cf, 0xc000135b08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986f80, 0xc0000f6450, 0x8c7720, 0xc0000f6480, 0xc000005080, 0xc0000050a0, 0x875880, 0xce3f58, 0x8eb8a0, 0xc000170300)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986f80, 0xc0000f6450, 0xc0000846e0, 0xc0000f6150, 0x0, 0x0, 0xc0000190a9, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000002f00, 0x988f40, 0xc000046300, 0xc000170300, 0xc0000f62d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000002f00, 0x988f40, 0xc000046300, 0xc000170300, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc000128060, 0xc000002f00, 0x988f40, 0xc000046300, 0xc000170300)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:56:26.984+0800	ERROR	recovery/interceptors.go:21	goroutine 8 [running]:
+runtime/debug.Stack(0xc0000dc5a0, 0x9235e8, 0x8762a0)
+	C:/Go/src/runtime/debug/stack.go:24 +0xae
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x8762a0, 0xcb7da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:47 +0x77
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x8762a0, 0xcb7da0, 0x9235f0, 0x49f3e0, 0xc00007e008)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x4a
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc00007e070, 0xc00006f590)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x66
+panic(0x8762a0, 0xcb7da0)
+	C:/Go/src/runtime/panic.go:513 +0x1c7
+main.(*DemoServer).SayHello(0xce3f58, 0x986fa0, 0xc0001365a0, 0xc0001363c0, 0xce3f58, 0xc000046480, 0xc00003e1c0)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x167
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0x986fa0, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc0001365a0, 0xc00006f4f0, 0x42bbc9, 0xc00003e1f0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986fa0, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0x5f45ad5d, 0x5863fce63f4aaec7, 0x0, 0x580000c000016e00)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0x11f
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0x986fa0, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0x9e
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986fa0, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc0001611a0, 0x9863a0, 0xc000006020, 0xc0001365a0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0x986fa0, 0xc0001365a0, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0x0, 0xc00001e3a0, 0x19, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x1d3
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986fa0, 0xc000136570, 0x8c7720, 0xc0001363c0, 0x14, 0xbf09e29eba6f3184, 0x1107ce4d9, 0xcc84e0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0x986fa0, 0xc000136480, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000006020, 0xc000006020, 0xc000136450, 0xc00001e380)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x111
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0x986fa0, 0xc000136480, 0x8c7720, 0xc0001363c0, 0x14, 0x8c7720, 0xc0001363c0, 0x50)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0xa6
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0x986fa0, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000118370, 0xc000115af8, 0x40c2cf, 0xc00006fb08, 0x40c2cf)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x8d
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0x986fa0, 0xc000136390, 0x8c7720, 0xc0001363c0, 0xc000004220, 0xc000004240, 0x875880, 0xce3f58, 0x8eb8a0, 0xc000174000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x15a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x86d400, 0xce3f58, 0x986fa0, 0xc000136390, 0xc000118230, 0xc00010c150, 0x0, 0x0, 0xc00001818a, 0x5)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x15f
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000046300, 0x988f60, 0xc000002f00, 0xc000174000, 0xc00010c2d0, 0xcb88e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x4a9
+google.golang.org/grpc.(*Server).handleStream(0xc000046300, 0x988f60, 0xc000002f00, 0xc000174000, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0xd5f
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc0000180b0, 0xc000046300, 0x988f60, 0xc000002f00, 0xc000174000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xa6
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xa8
+
+2019-01-22T20:56:26.984+0800	ERROR	tags/interceptors.go:21	finished unary call with code Internal	{"peer.address": "192.168.52.128:46096", "grpc.start_time": "2019-01-22T20:56:26+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "grpc.request.id": "7sEMrYBjeSqGbU8GSpM9Qe", "peer.address": "192.168.52.128:46096", "error": "rpc error: code = Internal desc = runtime error: invalid memory address or nil pointer dereference", "grpc.code": "Internal", "grpc.time_ms": 4.585999965667725}
+2019-01-22T20:58:48.303+0800	ERROR	recovery/interceptors.go:21	goroutine 38 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	C:/Go/src/runtime/debug/stack.go:24 +0xb8
+github.com/xprst/whd-grpc-base/middleware.handlerRecovery(0x9f1e00, 0xe99da0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/options.go:47 +0x90
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.recoverFrom(0x9f1e00, 0xe99da0, 0xaa0888, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:47 +0x74
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1.1(0xc00007e080, 0xc000198ca8)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:21 +0x6e
+panic(0x9f1e00, 0xe99da0)
+	C:/Go/src/runtime/panic.go:513 +0x1f4
+main.(*DemoServer).SayHello(0xec5f78, 0xb22680, 0xc00013e5a0, 0xc00013e3c0, 0x0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/test/server/main.go:29 +0x24e
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler.func1(0xb22680, 0xc00013e5a0, 0xa43de0, 0xc00013e3c0, 0x0, 0x0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:180 +0x105
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0xb22680, 0xc00013e5a0, 0xa43de0, 0xc00013e3c0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:31 +0xec
+github.com/grpc-ecosystem/go-grpc-middleware/recovery.UnaryServerInterceptor.func1(0xb22680, 0xc00013e5a0, 0xa43de0, 0xc00013e3c0, 0xc0001481c0, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/recovery/interceptors.go:25 +0xde
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0xb22680, 0xc00013e5a0, 0xa43de0, 0xc00013e3c0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0x24a
+github.com/xprst/whd-grpc-base/middleware/reqid.UnaryServerInterceptor.func1(0xb22680, 0xc00013e5a0, 0xa43de0, 0xc00013e3c0, 0xc0001481c0, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/middleware/reqid/requestid.go:28 +0x25b
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0xb22680, 0xc00013e570, 0xa43de0, 0xc00013e3c0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0x24a
+github.com/grpc-ecosystem/go-grpc-middleware/logging/zap.UnaryServerInterceptor.func1(0xb22680, 0xc00013e480, 0xa43de0, 0xc00013e3c0, 0xc0001481c0, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/logging/zap/server_interceptors.go:32 +0x15f
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1.1(0xb22680, 0xc00013e480, 0xa43de0, 0xc00013e3c0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:34 +0x24a
+github.com/grpc-ecosystem/go-grpc-middleware/tags.UnaryServerInterceptor.func1(0xb22680, 0xc00013e390, 0xa43de0, 0xc00013e3c0, 0xc0001481c0, 0xc000118370, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/tags/interceptors.go:21 +0x152
+github.com/grpc-ecosystem/go-grpc-middleware.ChainUnaryServer.func1(0xb22680, 0xc00013e390, 0xa43de0, 0xc00013e3c0, 0xc0001481c0, 0xc0001481e0, 0x0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-middleware@v1.0.0/chain.go:39 +0x24a
+github.com/xprst/whd-grpc-base/test/pb/demo._Hello_SayHello_Handler(0x9e8d80, 0xec5f78, 0xb22680, 0xc00013e390, 0xc000118230, 0xc00010c150, 0x0, 0x0, 0x0, 0x0)
+	D:/workspace/github/whd-grpc-base/test/pb/demo/demo.pb.go:182 +0x24e
+google.golang.org/grpc.(*Server).processUnaryRPC(0xc000046300, 0xb24500, 0xc00011c180, 0xc000190000, 0xc00010c2d0, 0xe9a8e0, 0x0, 0x0, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:966 +0x106d
+google.golang.org/grpc.(*Server).handleStream(0xc000046300, 0xb24500, 0xc00011c180, 0xc000190000, 0x0)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:1245 +0x982
+google.golang.org/grpc.(*Server).serveStreams.func1.1(0xc000140060, 0xc000046300, 0xb24500, 0xc00011c180, 0xc000190000)
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:685 +0xb7
+created by google.golang.org/grpc.(*Server).serveStreams.func1
+	C:/Users/lgt/go/pkg/mod/github.com/grpc/grpc-go@v1.2.1-0.20190114234020-98a94b0cb0eb/server.go:683 +0xad
+
+2019-01-22T21:12:36.029+0800	ERROR	tags/interceptors.go:21	finished unary call with code Unknown	{"peer.address": "192.168.52.128:46102", "grpc.start_time": "2019-01-22T21:12:36+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46102", "grpc.request.id": "NmrXvqhrmbRMWC2AbibHbc", "error": "message is undefined!", "grpc.code": "Unknown", "grpc.time_ms": 3.01200008392334}
+2019-01-22T22:04:19.234+0800	ERROR	tags/interceptors.go:21	finished unary call with code Unknown	{"peer.address": "192.168.52.128:46104", "grpc.start_time": "2019-01-22T22:04:19+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46104", "grpc.request.id": "da1554be-d685-46c1-be69-0866a6749a4f", "error": "message is undefined!", "grpc.code": "Unknown", "grpc.time_ms": 0.4950000047683716}
+2019-01-23T14:40:20.453+0800	ERROR	tags/interceptors.go:21	finished unary call with code Unknown	{"peer.address": "192.168.52.128:46106", "grpc.start_time": "2019-01-23T14:40:20+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46106", "grpc.request.id": "358caee2-5b3c-4fed-8f46-6aed1e9e5d3e", "error": "message is undefined!", "grpc.code": "Unknown", "grpc.time_ms": 1.0089999437332153}
+2019-01-23T14:41:16.735+0800	ERROR	tags/interceptors.go:21	finished unary call with code Unknown	{"peer.address": "192.168.52.128:46106", "grpc.start_time": "2019-01-23T14:41:16+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46106", "grpc.request.id": "c80355eb-c3d3-46be-a22e-8feed5a8385f", "error": "message is undefined!", "grpc.code": "Unknown", "grpc.time_ms": 0}
+2019-01-23T14:56:49.896+0800	ERROR	tags/interceptors.go:21	finished unary call with code Unknown	{"peer.address": "192.168.52.128:46110", "grpc.start_time": "2019-01-23T14:56:49+08:00", "system": "grpc", "span.kind": "server", "grpc.service": "demo.Hello", "grpc.method": "SayHello", "peer.address": "192.168.52.128:46110", "grpc.request.id": "5117231e-90b8-4765-89d1-330cc89dfc22", "error": "param name is need, but name is null!", "grpc.code": "Unknown", "grpc.time_ms": 0}
