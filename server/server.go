@@ -55,7 +55,7 @@ func (s *Server) StartServer() error {
 		return ErrServerClosed
 	}
 	go startTrace()
-	fmt.Println("grpc service ready")
+	fmt.Println("grpc service start at port:", s.port)
 	return s.grpcServer.Serve(lis)
 }
 

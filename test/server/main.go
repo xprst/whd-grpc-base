@@ -6,6 +6,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
+	"github.com/xprst/whd-grpc-base/app"
 	"github.com/xprst/whd-grpc-base/server"
 	"github.com/xprst/whd-grpc-base/test/pb/demo"
 	"google.golang.org/grpc/metadata"
@@ -44,7 +45,8 @@ func main() {
 	fmt.Printf("This is test!")
 	message = flag.String("m", "hello", "name aa")
 
-	s := server.NewServer(server.WithPort(8888))
+	app.InitWithConfig("./config/app.json")
+	s := server.NewServer(server.WithPort(app.GrpcPort))
 	demo.RegisterHelloServer(s.GrpcServer(), &DemoServer{})
 	_ = s.StartServer()
 }
