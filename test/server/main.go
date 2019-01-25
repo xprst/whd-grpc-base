@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/xprst/whd-grpc-base/app"
 	"github.com/xprst/whd-grpc-base/server"
 	"github.com/xprst/whd-grpc-base/test/pb/demo"
 	"google.golang.org/grpc/metadata"
@@ -44,9 +43,13 @@ func (s *DemoServer) SayHello(ctx context.Context, who *demo.Who) (*demo.HelloEn
 func main() {
 	fmt.Printf("This is test!")
 	message = flag.String("m", "hello", "name aa")
+	configPath := flag.String("conf","./config/app.json", "config file path")
+	flag.Parse()
 
-	app.InitWithConfig("./config/app.json")
-	s := server.NewServer(server.WithPort(app.GrpcPort))
+	s := server.NewServer(server.WithConfig(*configPath))
 	demo.RegisterHelloServer(s.GrpcServer(), &DemoServer{})
-	_ = s.StartServer()
+	err := s.StartServer()
+	if err != nil {
+		panic(err)
+	}
 }
