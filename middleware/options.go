@@ -20,16 +20,18 @@ func NewOptions() []grpc.ServerOption {
 	 */
 	opts := []grpc.ServerOption{
 		grpc_middleware.WithUnaryServerChain(
+			grpc_recovery.UnaryServerInterceptor(grpc_recovery.WithRecoveryHandler(handlerRecovery)), // 该拦截器一定放第一个，已保护异常处理
+			//grpc_auth.UnaryServerInterceptor(auth.AuthFunction),
 			grpc_ctxtags.UnaryServerInterceptor(grpc_ctxtags.WithFieldExtractor(grpc_ctxtags.CodeGenRequestFieldExtractor)),
 			log_zap.UnaryServerInterceptor(log_zap.WithZapLogger()),
 			req_uuid.UnaryServerInterceptor(),
-			grpc_recovery.UnaryServerInterceptor(grpc_recovery.WithRecoveryHandler(handlerRecovery)), // 该拦截器一定放最后一个，已保护异常处理
 		),
 		grpc_middleware.WithStreamServerChain(
+			grpc_recovery.StreamServerInterceptor(grpc_recovery.WithRecoveryHandler(handlerRecovery)),
+			//grpc_auth.StreamServerInterceptor(auth.AuthFunction),
 			grpc_ctxtags.StreamServerInterceptor(grpc_ctxtags.WithFieldExtractor(grpc_ctxtags.CodeGenRequestFieldExtractor)),
 			log_zap.StreamServerInterceptor(log_zap.WithZapLogger()),
 			req_uuid.StreamServerInterceptor(),
-			grpc_recovery.StreamServerInterceptor(grpc_recovery.WithRecoveryHandler(handlerRecovery)),
 		),
 	}
 
