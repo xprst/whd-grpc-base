@@ -1,11 +1,11 @@
 {
   "server": {
-    "grpcPort": 6000
+    "grpcPort": 8888
   },
   "dataSource": {
     "default": {
       "driverName": "mysql",
-      "dataSourceName": "root:123456@(10.5.11.18:3307)/achievement_system?charset=utf8",
+      "dataSourceName": "root:123456@(10.5.11.18:3307)/grpc_demo?charset=utf8",
       "logLevel": "debug"
     },
     "pd_dev": {
@@ -15,3 +15,5 @@
     }
   }
 }
+
+
