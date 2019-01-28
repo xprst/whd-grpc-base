@@ -1,6 +1,9 @@
 module github.com/xprst/whd-grpc-base
 
 require (
+	github.com/denisenkom/go-mssqldb v0.0.0-20181014144952-4e0d7dc8888f
+	github.com/go-sql-driver/mysql v1.4.0
+	github.com/go-xorm/core v0.6.0
 	github.com/go-xorm/xorm v0.7.1
 	github.com/gogo/protobuf v1.2.0 // indirect
 	github.com/golang/protobuf v1.2.0

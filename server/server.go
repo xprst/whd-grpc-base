@@ -4,11 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/xprst/whd-grpc-base/middleware"
-	"golang.org/x/net/trace"
-	"log"
-	"net/http"
-
 	"google.golang.org/grpc"
+	"log"
 	"net"
 )
 
@@ -54,15 +51,7 @@ func (s *Server) StartServer() error {
 		log.Fatalf("failed to listen: %v", err)
 		return ErrServerClosed
 	}
-	go startTrace()
 	fmt.Println("grpc service start at port:", s.port)
 	return s.grpcServer.Serve(lis)
 }
 
-func startTrace() {
-	trace.AuthRequest = func(req *http.Request) (any, sensitive bool) {
-		return true, true
-	}
-	go http.ListenAndServe(":50051", nil)
-	fmt.Println("Trace listen on 50051")
-}
